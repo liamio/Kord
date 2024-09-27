@@ -1,0 +1,50 @@
+/* Forest Theme */
+body {
+  background-color: #228B22; /* Forest Green */
+  color: #fff; /* White text */
+  font-family: 'Arial', sans-serif;
+}
+
+#menu-container {
+  background-color: #3CB371; /* Medium Sea Green */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#chat-container {
+  background-color: #90EE90; /* Light Green */
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #7CFC00; /* Lawn Green */
+}
+
+.bot {
+  background-color: #ADFF2F; /* Green Yellow */
+}
+
+.message-text {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+/* Rainbow Owner */
+.owner .sender {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
